@@ -10,9 +10,7 @@ from typing import List, Tuple, Optional
 # Import message types
 from geometry_msgs.msg import Twist, PoseStamped, PoseWithCovarianceStamped, TwistWithCovarianceStamped
 from nav_msgs.msg import Odometry # Common source for pose and velocity
-# TODO: Import the message type you will use for human data
-# Example (replace with actual type):
-# from people_msgs.msg import People # Or a custom message like HumanArray
+from my_social_nav_interfaces.msg import HumanArray
 
 # Import your custom modules using relative imports
 try:
@@ -45,8 +43,7 @@ class SocialPlannerNode(Node):
         self.declare_parameter('robot_max_speed', 1.0) # Default from environment.py
         self.declare_parameter('goal_topic', '/goal_pose')
         self.declare_parameter('odom_topic', '/mobile_base_controller/odom') # Correct topic for Tiago sim
-        # TODO: Declare parameter for the human data topic name
-        # self.declare_parameter('humans_topic', '/humans')
+        self.declare_parameter('humans_topic', '/humans')
         self.declare_parameter('cmd_vel_topic', '/mobile_base_controller/cmd_vel_unstamped') # Common for Tiago
         self.declare_parameter('planning_frequency', 10.0) # Hz (e.g., run planner 10 times/sec)
 
@@ -59,8 +56,7 @@ class SocialPlannerNode(Node):
         self.robot_max_speed = self.get_parameter('robot_max_speed').value
         goal_topic = self.get_parameter('goal_topic').value
         odom_topic = self.get_parameter('odom_topic').value
-        # TODO: Get human topic name parameter
-        # humans_topic = self.get_parameter('humans_topic').value
+        humans_topic = self.get_parameter('humans_topic').value
         cmd_vel_topic = self.get_parameter('cmd_vel_topic').value
         planning_frequency = self.get_parameter('planning_frequency').value
 
@@ -75,7 +71,6 @@ class SocialPlannerNode(Node):
         self.current_robot_pose: Optional[np.ndarray] = None # Store as [x, y, theta] or just [x, y]
         self.current_robot_velocity: Optional[np.ndarray] = None # Store as [vx, vy]
         self.current_goal: Optional[np.ndarray] = None # Store as [x, y]
-        # TODO: Initialize variable for human data (e.g., a list of positions and velocities)
         self.human_data: List[Tuple[np.ndarray, np.ndarray]] = [] # List of (pos [x,y], vel [vx,vy]) tuples
 
         # --- Action Space ---
@@ -112,13 +107,13 @@ class SocialPlannerNode(Node):
             self.odom_callback,
             odom_qos)
 
-        # TODO: Create subscriber for human data
-        # self.human_subscriber = self.create_subscription(
-        #     People, # Replace with actual message type
-        #     humans_topic,
-        #     self.humans_callback,
-        #     10 # Or appropriate QoS
-        # )
+        # Create subscriber for human data
+        self.human_subscriber = self.create_subscription(
+            HumanArray,
+            humans_topic,
+            self.humans_callback,
+            10 # Or appropriate QoS
+        )
 
         # --- Publisher ---
         self.cmd_vel_publisher = self.create_publisher(
@@ -181,19 +176,28 @@ class SocialPlannerNode(Node):
         # For now, assuming planner can use base_link velocity or adapt.
         self.current_robot_velocity = np.array([vel_x, vel_y])
 
-    # TODO: Implement the humans_callback function
-    # def humans_callback(self, msg: People): # Replace People with actual type
-    #     """Processes and stores human data."""
-    #     self.human_data = []
-    #     # Example: Iterate through detected people in the message
-    #     # for person in msg.people:
-    #     #     # Extract position (x, y) and velocity (vx, vy)
-    #     #     # You might need TF lookups to get data in the correct frame (e.g., 'odom')
-    #     #     pos = np.array([person.position.x, person.position.y])
-    #     #     vel = np.array([person.velocity.x, person.velocity.y])
-    #     #     self.human_data.append((pos, vel))
-    #     # self.get_logger().debug(f"Updated human data: {len(self.human_data)} humans.")
-    #     pass # Placeholder
+    def humans_callback(self, msg: HumanArray): # Use HumanArray type hint
+        """Processes and stores human data from the HumanArray message."""
+        # Check if the message frame_id matches what your planner expects (e.g., 'odom')
+        # Optional: Add TF lookup here if frames don't match. For now, assume they do.
+        # if msg.header.frame_id != 'odom':
+        #     self.get_logger().warn(f"Received human data in frame '{msg.header.frame_id}', expected 'odom'.", throttle_duration_sec=10)
+        #     # Consider adding TF transformation here
+        #     return
+
+        new_human_data = []
+        for human_msg in msg.humans:
+            # Extract position (using x, y)
+            pos = np.array([human_msg.position.x, human_msg.position.y])
+            # Extract velocity (using x, y)
+            vel = np.array([human_msg.velocity.x, human_msg.velocity.y])
+            # Append as a tuple (position_array, velocity_array)
+            new_human_data.append((pos, vel))
+
+        # Atomically update the shared data structure
+        self.human_data = new_human_data
+        # Optional debug log:
+        # self.get_logger().debug(f"Updated human data: {len(self.human_data)} humans.")
 
 
     # --- Main Planning Logic (Timer Callback) ---

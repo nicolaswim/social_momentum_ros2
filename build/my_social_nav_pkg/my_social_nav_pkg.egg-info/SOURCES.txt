@@ -1,6 +1,7 @@
 package.xml
 setup.cfg
 setup.py
+launch/social_nav_test.launch.py
 my_social_nav_pkg/__init__.py
 my_social_nav_pkg/fake_human_publisher.py
 my_social_nav_pkg/geometry_utils.py
