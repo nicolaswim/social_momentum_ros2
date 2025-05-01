@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'social_planner_node = my_social_nav_pkg.social_planner_node:main'
+            'fake_human_publisher = my_social_nav_pkg.fake_human_publisher:main', # <-- Add this line
         ],
     },
 )

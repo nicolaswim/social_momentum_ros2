@@ -2,6 +2,7 @@ package.xml
 setup.cfg
 setup.py
 my_social_nav_pkg/__init__.py
+my_social_nav_pkg/fake_human_publisher.py
 my_social_nav_pkg/geometry_utils.py
 my_social_nav_pkg/social_momentum.py
 my_social_nav_pkg/social_planner_node.py
