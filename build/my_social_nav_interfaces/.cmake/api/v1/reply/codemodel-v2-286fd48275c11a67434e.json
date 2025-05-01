@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b4aeeebfde99ff5dd6b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "my_social_nav_interfaces__py",
+					"jsonFile" : "directory-my_social_nav_interfaces__py-58ef086f89c52054444f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces/my_social_nav_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_social_nav_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_social_nav_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_social_nav_interfaces_egg-734dba60ef5adac47495.json",
+					"name" : "ament_cmake_python_build_my_social_nav_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_my_social_nav_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_my_social_nav_interfaces-e798adf1074402e27e40.json",
+					"name" : "ament_cmake_python_symlink_my_social_nav_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces-14d71d92f7e50a6a3200.json",
+					"name" : "my_social_nav_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__cpp-32dbabb34ab77f1e025d.json",
+					"name" : "my_social_nav_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_social_nav_interfaces__py::@adaf4cc2c703925507ab",
+					"jsonFile" : "target-my_social_nav_interfaces__py-5fbf276164b979bf7b6c.json",
+					"name" : "my_social_nav_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_generator_c-c3c98f339441c4e1c555.json",
+					"name" : "my_social_nav_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_generator_py-b1050b339fc244c5f9f1.json",
+					"name" : "my_social_nav_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_c-eeb7090354cd26dfdc98.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_c__pyext-e5d0d05b878221beb669.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_cpp-227f437e748e109e4769.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_fastrtps_c-874de8362229f5e130eb.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext-b3b1aa28f4000ac24910.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp-c4b1ce3a92cf1de1b701.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_introspection_c-a0a6375de8dc4d76bbec.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_introspection_c__pyext-120626ad62d8690cda01.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces__rosidl_typesupport_introspection_cpp-428e0d9daf1b5613e566.json",
+					"name" : "my_social_nav_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_social_nav_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_social_nav_interfaces_uninstall-33570f419c1273fbfd95.json",
+					"name" : "my_social_nav_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1ae303d36c87eaba05f9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces",
+		"source" : "/home/wim/Documents/social_momentum_ros2/src/my_social_nav_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

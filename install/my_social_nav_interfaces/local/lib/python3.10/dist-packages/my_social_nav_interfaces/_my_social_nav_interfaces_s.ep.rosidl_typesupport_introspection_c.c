@@ -1,0 +1,1 @@
+/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces/rosidl_generator_py/my_social_nav_interfaces/_my_social_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c

@@ -44,7 +44,7 @@ class SocialPlannerNode(Node):
         self.declare_parameter('time_step', 0.1) # Planning prediction time step
         self.declare_parameter('robot_max_speed', 1.0) # Default from environment.py
         self.declare_parameter('goal_topic', '/goal_pose')
-        self.declare_parameter('odom_topic', '/odom') # Example odometry topic
+        self.declare_parameter('odom_topic', '/mobile_base_controller/odom') # Correct topic for Tiago sim
         # TODO: Declare parameter for the human data topic name
         # self.declare_parameter('humans_topic', '/humans')
         self.declare_parameter('cmd_vel_topic', '/mobile_base_controller/cmd_vel_unstamped') # Common for Tiago

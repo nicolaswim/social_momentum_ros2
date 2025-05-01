@@ -1,0 +1,1 @@
+/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces/rosidl_typesupport_fastrtps_c/my_social_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
