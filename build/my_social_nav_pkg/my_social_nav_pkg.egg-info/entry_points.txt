@@ -1,0 +1,3 @@
+[console_scripts]
+social_planner_node = my_social_nav_pkg.social_planner_node:main
+

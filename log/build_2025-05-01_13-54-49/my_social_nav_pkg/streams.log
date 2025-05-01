@@ -1,0 +1,17 @@
+[0.561s] Invoking command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_pkg': PYTHONPATH=/home/wim/Documents/social_momentum_ros2/build/my_social_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wim/Documents/social_momentum_ros2/build/my_social_nav_pkg/build --no-deps symlink_data
+[0.804s] running develop
+[0.945s] running egg_info
+[0.946s] writing my_social_nav_pkg.egg-info/PKG-INFO
+[0.946s] writing dependency_links to my_social_nav_pkg.egg-info/dependency_links.txt
+[0.946s] writing entry points to my_social_nav_pkg.egg-info/entry_points.txt
+[0.946s] writing requirements to my_social_nav_pkg.egg-info/requires.txt
+[0.946s] writing top-level names to my_social_nav_pkg.egg-info/top_level.txt
+[0.948s] reading manifest file 'my_social_nav_pkg.egg-info/SOURCES.txt'
+[0.949s] writing manifest file 'my_social_nav_pkg.egg-info/SOURCES.txt'
+[0.950s] running build_ext
+[0.950s] Creating /home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg/lib/python3.10/site-packages/my-social-nav-pkg.egg-link (link to .)
+[0.951s] Installing social_planner_node script to /home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg/lib/my_social_nav_pkg
+[0.951s] 
+[0.951s] Installed /home/wim/Documents/social_momentum_ros2/build/my_social_nav_pkg
+[0.951s] running symlink_data
+[0.975s] Invoked command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_pkg' returned '0': PYTHONPATH=/home/wim/Documents/social_momentum_ros2/build/my_social_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wim/Documents/social_momentum_ros2/build/my_social_nav_pkg/build --no-deps symlink_data
