@@ -1,0 +1,37 @@
+source /opt/ros/humble/setup.bash
+source ~/tiago_public_ws/install/setup.bash
+source ~/Documents/social_momentum_ros2/install/setup.bash
+
+launch file
+ros2 launch my_social_nav_pkg social_nav_test.launch.py
+
+launching rviz
+ros2 run rviz2 rviz2 --ros-args -p use_sim_time:=True
+
+---
+
+buidling stuff
+
+# 1. Navigate to your workspace root directory
+cd ~/Documents/social_momentum_ros2
+
+# 2. Make sure ROS 2 Humble environment is sourced
+source /opt/ros/humble/setup.bash
+
+# 3. Build the workspace (or just your package)
+colcon build --symlink-install --packages-select my_social_nav_pkg
+# Or build everything: colcon build --symlink-install
+
+# 4. Source your workspace's overlay setup file
+source install/setup.bash
+
+---
+
+# Terminal 1 (Source all 3 setup files)
+ros2 launch my_social_nav_pkg social_nav_test.launch.py scenario_mode:=head_on
+
+# Terminal 1 (Source all 3 setup files)
+ros2 launch my_social_nav_pkg social_nav_test.launch.py scenario_mode:=random num_random_humans:=5
+
+# Terminal 1 (Source all 3 setup files)
+ros2 launch my_social_nav_pkg social_nav_test.launch.py scenario_mode:=teleop

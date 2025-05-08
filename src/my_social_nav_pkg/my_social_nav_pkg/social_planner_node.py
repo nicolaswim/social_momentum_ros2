@@ -3,6 +3,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
 from rclpy.duration import Duration
+import math
 
 import numpy as np
 from typing import List, Tuple, Optional
@@ -59,6 +60,12 @@ class SocialPlannerNode(Node):
         humans_topic = self.get_parameter('humans_topic').value
         cmd_vel_topic = self.get_parameter('cmd_vel_topic').value
         planning_frequency = self.get_parameter('planning_frequency').value
+        # Add auto-goal parameters
+        self.declare_parameter('auto_goal_x', math.nan) # Use NaN to check if set
+        self.declare_parameter('auto_goal_y', math.nan)
+        # ... get planning_frequency value ...
+        auto_goal_x = self.get_parameter('auto_goal_x').value
+        auto_goal_y = self.get_parameter('auto_goal_y').value
 
         self.get_logger().info(f"Parameters set:")
         self.get_logger().info(f"  lambda_sm: {self.lambda_sm}")
@@ -73,6 +80,16 @@ class SocialPlannerNode(Node):
         self.current_goal: Optional[np.ndarray] = None # Store as [x, y]
         self.human_data: List[Tuple[np.ndarray, np.ndarray]] = [] # List of (pos [x,y], vel [vx,vy]) tuples
 
+        # --- Auto Goal Initialization ---
+        # Convert potential float NaN to np.nan for isnan check
+        auto_goal_x_np = np.float64(auto_goal_x)
+        auto_goal_y_np = np.float64(auto_goal_y)
+        if not np.isnan(auto_goal_x_np) and not np.isnan(auto_goal_y_np):
+            self.current_goal = np.array([auto_goal_x_np, auto_goal_y_np])
+            self.get_logger().info(f"Using automatic goal set via parameters: {self.current_goal}")
+        else:
+            self.get_logger().info("No automatic goal set, waiting for goal on topic: " + goal_topic)
+
         # --- Action Space ---
         # This part IS taken from main_sim.py's create_robot_action_space function
         self.robot_action_space = self._create_robot_action_space(self.robot_max_speed)
@@ -85,13 +102,14 @@ class SocialPlannerNode(Node):
             history=HistoryPolicy.KEEP_LAST,
             depth=10
         )
-        # QoS for goal (often published infrequently)
+        # QoS for goal (often published infrequently) - Using relaxed settings for testing
         goal_qos = QoSProfile(
-             reliability=ReliabilityPolicy.RELIABLE,
-             history=HistoryPolicy.KEEP_LAST,
-             depth=1,
-             durability=DurabilityPolicy.TRANSIENT_LOCAL # Keep last goal
+            reliability=ReliabilityPolicy.BEST_EFFORT, # TRY BEST_EFFORT
+            history=HistoryPolicy.KEEP_LAST,
+            depth=10, # Increase depth slightly
+            durability=DurabilityPolicy.VOLATILE # TRY VOLATILE
         )
+        self.get_logger().warn("Using BEST_EFFORT / VOLATILE QoS for /goal_pose subscriber!") # Log the change
          # TODO: Define QoS for human data based on its source
 
         # --- Subscribers ---
@@ -203,16 +221,42 @@ class SocialPlannerNode(Node):
     # --- Main Planning Logic (Timer Callback) ---
     def timer_callback(self):
         """Periodic function to run the social planner."""
-        # Check if we have all necessary information
+
+        # --- ADD DELAY ---
+        # Wait for e.g., 10 seconds of sim time before starting to plan/publish
+        # Adjust the duration as needed based on how long tucking takes
+        MIN_START_DELAY_SEC = 10.0
+        current_sim_time = self.get_clock().now()
+        if current_sim_time.nanoseconds / 1e9 < MIN_START_DELAY_SEC:
+            # Optionally log only once or periodically
+            if not hasattr(self, '_logged_waiting_for_delay'):
+                 self.get_logger().info(f"Waiting for initial delay ({MIN_START_DELAY_SEC}s)...")
+                 self._logged_waiting_for_delay = True
+            return # Do nothing until delay passes
+        # --- END ADD DELAY ---
+        
+            # Modified check: Only wait for goal if not set automatically
+        goal_needed = self.current_goal is None
         if self.current_robot_pose is None or \
-           self.current_robot_velocity is None or \
-           self.current_goal is None:
-            # TODO: Add check for human data availability
-            self.get_logger().warn("Waiting for robot pose, velocity, goal, or human data...", throttle_duration_sec=5)
-            # Optionally publish zero velocity to stop robot if data is missing
-            # stop_cmd = Twist()
-            # self.cmd_vel_publisher.publish(stop_cmd)
+        self.current_robot_velocity is None or \
+        goal_needed:
+            waiting_for = []
+            if self.current_robot_pose is None: waiting_for.append("robot pose")
+            if self.current_robot_velocity is None: waiting_for.append("robot velocity")
+            if goal_needed: waiting_for.append("goal")
+            # Removed human data check here
+            self.get_logger().warn(f"Waiting for: {', '.join(waiting_for)}...", throttle_duration_sec=5)
             return
+        # # Check if we have all necessary information
+        # if self.current_robot_pose is None or \
+        #    self.current_robot_velocity is None or \
+        #    self.current_goal is None:
+        #     # TODO: Add check for human data availability
+        #     self.get_logger().warn("Waiting for robot pose, velocity, goal, or human data...", throttle_duration_sec=5)
+        #     # Optionally publish zero velocity to stop robot if data is missing
+        #     # stop_cmd = Twist()
+        #     # self.cmd_vel_publisher.publish(stop_cmd)
+        #     return
 
         # Prepare inputs for the social momentum function
         robot_q = self.current_robot_pose
