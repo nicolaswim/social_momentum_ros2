@@ -1,0 +1,230 @@
+[0.031s] Invoking command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg:/home/wim/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /home/wim/Documents/social_momentum_ros2/src/my_social_nav_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces
+[0.208s] -- The C compiler identification is GNU 11.4.0
+[0.350s] -- The CXX compiler identification is GNU 11.4.0
+[0.368s] -- Detecting C compiler ABI info
+[0.497s] -- Detecting C compiler ABI info - done
+[0.514s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.515s] -- Detecting C compile features
+[0.516s] -- Detecting C compile features - done
+[0.523s] -- Detecting CXX compiler ABI info
+[0.668s] -- Detecting CXX compiler ABI info - done
+[0.681s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.681s] -- Detecting CXX compile features
+[0.682s] -- Detecting CXX compile features - done
+[0.694s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.989s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.433s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.652s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.797s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.823s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.856s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.076s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.237s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.864s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.875s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.935s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.935s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.935s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.935s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.975s] -- Found PythonExtra: .so  
+[5.537s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.645s] -- Added test 'lint_cmake' to check CMake code style
+[5.651s] -- Added test 'xmllint' to check XML markup files
+[5.667s] -- Configuring done
+[5.750s] -- Generating done
+[5.776s] -- Build files have been written to: /home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces
+[5.799s] Invoked command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg:/home/wim/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /home/wim/Documents/social_momentum_ros2/src/my_social_nav_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces
+[5.803s] Invoking command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg:/home/wim/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces -- -j12 -l12
+[5.895s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.032s] [  2%] Built target my_social_nav_interfaces__cpp
+[7.103s] [  2%] Built target ament_cmake_python_symlink_my_social_nav_interfaces
+[7.126s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.755s] [  7%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_social_nav_interfaces/msg/detail/human_pose_vel__type_support.cpp.o[0m
+[8.891s] [ 10%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_social_nav_interfaces/msg/detail/human_array__type_support.cpp.o[0m
+[10.194s] [ 12%] [32m[1mLinking CXX shared library libmy_social_nav_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.386s] [ 12%] Built target my_social_nav_interfaces__rosidl_typesupport_introspection_cpp
+[11.167s] running egg_info
+[11.170s] creating my_social_nav_interfaces.egg-info
+[11.170s] writing my_social_nav_interfaces.egg-info/PKG-INFO
+[11.170s] writing dependency_links to my_social_nav_interfaces.egg-info/dependency_links.txt
+[11.171s] writing top-level names to my_social_nav_interfaces.egg-info/top_level.txt
+[11.174s] writing manifest file 'my_social_nav_interfaces.egg-info/SOURCES.txt'
+[11.178s] reading manifest file 'my_social_nav_interfaces.egg-info/SOURCES.txt'
+[11.180s] writing manifest file 'my_social_nav_interfaces.egg-info/SOURCES.txt'
+[11.253s] [ 12%] Built target ament_cmake_python_build_my_social_nav_interfaces_egg
+[11.283s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.465s] [ 17%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_social_nav_interfaces/msg/detail/dds_fastrtps/human_pose_vel__type_support.cpp.o[0m
+[13.566s] [ 20%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_social_nav_interfaces/msg/detail/dds_fastrtps/human_array__type_support.cpp.o[0m
+[14.903s] [ 23%] [32m[1mLinking CXX shared library libmy_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.123s] [ 23%] Built target my_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.152s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.208s] [ 28%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_social_nav_interfaces/msg/human_pose_vel__type_support.cpp.o[0m
+[16.998s] [ 30%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_social_nav_interfaces/msg/human_array__type_support.cpp.o[0m
+[17.764s] [ 33%] [32m[1mLinking CXX shared library libmy_social_nav_interfaces__rosidl_typesupport_cpp.so[0m
+[17.884s] [ 33%] Built target my_social_nav_interfaces__rosidl_typesupport_cpp
+[17.921s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.296s] [ 38%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_social_nav_interfaces/msg/detail/human_pose_vel__functions.c.o[0m
+[19.468s] [ 41%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_social_nav_interfaces/msg/detail/human_array__functions.c.o[0m
+[19.635s] [ 43%] [32m[1mLinking C shared library libmy_social_nav_interfaces__rosidl_generator_c.so[0m
+[19.751s] [ 43%] Built target my_social_nav_interfaces__rosidl_generator_c
+[19.779s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.873s] [ 48%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_social_nav_interfaces/msg/detail/human_pose_vel__type_support_c.cpp.o[0m
+[21.821s] [ 51%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_social_nav_interfaces/msg/detail/human_array__type_support_c.cpp.o[0m
+[22.772s] [ 53%] [32m[1mLinking CXX shared library libmy_social_nav_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[22.990s] [ 53%] Built target my_social_nav_interfaces__rosidl_typesupport_fastrtps_c
+[23.023s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.184s] [ 58%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_social_nav_interfaces/msg/human_pose_vel__type_support.cpp.o[0m
+[24.295s] [ 61%] [32mBuilding CXX object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_social_nav_interfaces/msg/human_array__type_support.cpp.o[0m
+[24.405s] [ 64%] [32m[1mLinking CXX shared library libmy_social_nav_interfaces__rosidl_typesupport_c.so[0m
+[24.534s] [ 64%] Built target my_social_nav_interfaces__rosidl_typesupport_c
+[24.563s] [ 66%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.691s] [ 69%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_social_nav_interfaces/msg/detail/human_pose_vel__type_support.c.o[0m
+[25.804s] [ 71%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_social_nav_interfaces/msg/detail/human_array__type_support.c.o[0m
+[25.925s] [ 74%] [32m[1mLinking C shared library libmy_social_nav_interfaces__rosidl_typesupport_introspection_c.so[0m
+[26.018s] [ 74%] Built target my_social_nav_interfaces__rosidl_typesupport_introspection_c
+[26.078s] [ 74%] Built target my_social_nav_interfaces
+[26.138s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[27.937s] [ 76%] Built target my_social_nav_interfaces__py
+[27.989s] [ 79%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_social_nav_interfaces/msg/_human_pose_vel_s.c.o[0m
+[28.312s] [ 82%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_social_nav_interfaces/msg/_human_array_s.c.o[0m
+[28.646s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_social_nav_interfaces/libmy_social_nav_interfaces__rosidl_generator_py.so[0m
+[28.781s] [ 84%] Built target my_social_nav_interfaces__rosidl_generator_py
+[28.837s] [ 87%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_social_nav_interfaces/_my_social_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.169s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[29.323s] [ 89%] Built target my_social_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[29.387s] [ 92%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_social_nav_interfaces/_my_social_nav_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[29.702s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[29.807s] [ 94%] Built target my_social_nav_interfaces__rosidl_typesupport_c__pyext
+[29.867s] [ 97%] [32mBuilding C object CMakeFiles/my_social_nav_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_social_nav_interfaces/_my_social_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.196s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.320s] [100%] Built target my_social_nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[30.355s] Invoked command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg:/home/wim/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces -- -j12 -l12
+[30.381s] Invoking command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg:/home/wim/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces
+[30.400s] -- Install configuration: ""
+[30.402s] -- Execute custom install script
+[30.403s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_social_nav_interfaces
+[30.430s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__functions.h
+[30.456s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__struct.h
+[30.481s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__type_support.h
+[30.509s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__functions.h
+[30.537s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__struct.h
+[30.561s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__type_support.h
+[30.587s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/human_array.h
+[30.612s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/human_pose_vel.h
+[30.637s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[30.663s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/library_path.sh
+[30.690s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/library_path.dsv
+[30.718s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__rosidl_typesupport_fastrtps_c.h
+[30.743s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__rosidl_typesupport_fastrtps_c.h
+[30.769s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.793s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__builder.hpp
+[30.818s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__struct.hpp
+[30.845s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__traits.hpp
+[30.870s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__type_support.hpp
+[30.895s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__builder.hpp
+[30.922s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__struct.hpp
+[30.945s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__traits.hpp
+[30.972s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__type_support.hpp
+[30.998s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/human_array.hpp
+[31.025s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/human_pose_vel.hpp
+[31.049s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.075s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__rosidl_typesupport_fastrtps_cpp.hpp
+[31.099s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[31.129s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.154s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__rosidl_typesupport_introspection_c.h
+[31.178s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__rosidl_typesupport_introspection_c.h
+[31.205s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.232s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_array__rosidl_typesupport_introspection_cpp.hpp
+[31.262s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/include/my_social_nav_interfaces/my_social_nav_interfaces/msg/detail/human_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[31.288s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/pythonpath.sh
+[31.314s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/pythonpath.dsv
+[31.343s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[31.372s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[31.398s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[31.427s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[31.455s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/__init__.py
+[31.482s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/_my_social_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[31.507s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/_my_social_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[31.532s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/_my_social_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[31.560s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/libmy_social_nav_interfaces__rosidl_generator_py.so
+[31.586s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/__init__.py
+[31.611s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/_human_array.py
+[31.636s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/_human_array_s.c
+[31.667s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/_human_pose_vel.py
+[31.693s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/_human_pose_vel_s.c
+[31.724s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[31.748s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[31.775s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[31.801s] -- Up-to-date symlink: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[31.802s] -- Up-to-date symlink: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[31.803s] -- Up-to-date symlink: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/my_social_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[31.804s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/msg/HumanPoseVel.idl
+[31.833s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/msg/HumanArray.idl
+[31.861s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/msg/HumanPoseVel.msg
+[31.888s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/msg/HumanArray.msg
+[31.915s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/ament_index/resource_index/package_run_dependencies/my_social_nav_interfaces
+[31.938s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/ament_index/resource_index/parent_prefix_path/my_social_nav_interfaces
+[31.962s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/ament_prefix_path.sh
+[31.987s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/ament_prefix_path.dsv
+[32.011s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/path.sh
+[32.036s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/environment/path.dsv
+[32.059s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/local_setup.bash
+[32.084s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/local_setup.sh
+[32.108s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/local_setup.zsh
+[32.135s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/local_setup.dsv
+[32.160s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/package.dsv
+[32.184s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/ament_index/resource_index/packages/my_social_nav_interfaces
+[32.209s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[32.237s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.263s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.288s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[32.315s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[32.344s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[32.371s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[32.398s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfacesConfig.cmake
+[32.427s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfacesConfig-version.cmake
+[32.452s] -- Symlinking: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/package.xml
+[32.478s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_generator_c.so
+[32.480s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_generator_c.so" to ""
+[32.481s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+[32.483s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[32.484s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[32.485s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[32.486s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_introspection_c.so
+[32.487s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[32.487s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_c.so
+[32.488s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_c.so" to ""
+[32.488s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+[32.490s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[32.491s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_cpp.so
+[32.493s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_typesupport_cpp.so" to ""
+[32.622s] Listing '/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces'...
+[32.622s] Compiling '/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/__init__.py'...
+[32.623s] Listing '/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg'...
+[32.623s] Compiling '/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/__init__.py'...
+[32.623s] Compiling '/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/_human_array.py'...
+[32.624s] Compiling '/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/local/lib/python3.10/dist-packages/my_social_nav_interfaces/msg/_human_pose_vel.py'...
+[32.641s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_generator_py.so
+[32.643s] -- Set runtime path of "/home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/lib/libmy_social_nav_interfaces__rosidl_generator_py.so" to ""
+[32.644s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_generator_cExport.cmake
+[32.645s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_generator_cExport-noconfig.cmake
+[32.645s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[32.646s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[32.646s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_generator_cppExport.cmake
+[32.646s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[32.647s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[32.650s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[32.650s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[32.651s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_cExport.cmake
+[32.651s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[32.652s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[32.652s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[32.653s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_cppExport.cmake
+[32.653s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/my_social_nav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[32.654s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_generator_pyExport.cmake
+[32.654s] -- Installing: /home/wim/Documents/social_momentum_ros2/install/my_social_nav_interfaces/share/my_social_nav_interfaces/cmake/export_my_social_nav_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[32.662s] Invoked command in '/home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wim/Documents/social_momentum_ros2/install/my_social_nav_pkg:/home/wim/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /home/wim/Documents/social_momentum_ros2/build/my_social_nav_interfaces

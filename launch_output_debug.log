@@ -1,0 +1,1293 @@
+[INFO] [launch]: All log files can be found below /home/wim/.ros/log/2025-05-09-15-19-26-527094-wim-HP-ZBook-Studio-G5-10713
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: ('Found tiago_gazebo. Launching TIAGo Gazebo with world: ', 'empty.world')
+WARNING:root:[33;21mCannot infer URDF from `/home/wim/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config`. -- using config/tiago.urdf[0m
+WARNING:root:[33;21mCannot infer SRDF from `/home/wim/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config`. -- using config/tiago.srdf[0m
+WARNING:root:[33;21m"File /home/wim/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/tiago.urdf doesn't exist"[0m
+WARNING:root:[33;21mThe robot description will be loaded from /robot_description topic [0m
+WARNING:root:[33;21m"File /home/wim/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/tiago.urdf doesn't exist"[0m
+WARNING:root:[33;21mThe robot description will be loaded from /robot_description topic [0m
+[INFO] [move_group-3]: process started with pid [10748]
+[INFO] [play_motion2_node-12]: process started with pid [10772]
+[INFO] [tuck_arm.py-17]: process started with pid [10783]
+[INFO] [gzserver-1]: process started with pid [10744]
+[INFO] [gzclient-2]: process started with pid [10746]
+[INFO] [spawn_entity.py-4]: process started with pid [10750]
+[INFO] [spawner-5]: process started with pid [10752]
+[INFO] [spawner-6]: process started with pid [10755]
+[INFO] [spawner-7]: process started with pid [10758]
+[INFO] [spawner-8]: process started with pid [10760]
+[INFO] [spawner-9]: process started with pid [10764]
+[INFO] [spawner-10]: process started with pid [10767]
+[INFO] [spawner-11]: process started with pid [10770]
+[INFO] [twist_mux-13]: process started with pid [10775]
+[INFO] [twist_marker-14]: process started with pid [10777]
+[INFO] [joystick_relay.py-15]: process started with pid [10779]
+[INFO] [robot_state_publisher-16]: process started with pid [10781]
+[INFO] [rviz2-18]: process started with pid [10786]
+[INFO] [social_planner_node-19]: process started with pid [10790]
+[twist_mux-13] [INFO] [1746796767.952246048] [twist_mux]: Topic handler 'topics.assisted_teleop' subscribed to topic 'assisted_vel': timeout = 0.500000s , priority = 200.
+[twist_mux-13] [INFO] [1746796767.964154730] [twist_mux]: Topic handler 'topics.docking' subscribed to topic 'docking_vel': timeout = 0.500000s , priority = 210.
+[twist_mux-13] [INFO] [1746796767.964559878] [twist_mux]: Topic handler 'topics.joystick' subscribed to topic 'joy_vel': timeout = 0.500000s , priority = 100.
+[twist_mux-13] [INFO] [1746796767.964868601] [twist_mux]: Topic handler 'topics.keyboard' subscribed to topic 'key_vel': timeout = 0.500000s , priority = 90.
+[twist_mux-13] [INFO] [1746796767.965138974] [twist_mux]: Topic handler 'topics.navigation' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 10.
+[twist_mux-13] [INFO] [1746796767.965394438] [twist_mux]: Topic handler 'topics.rviz' subscribed to topic 'rviz_joy_vel': timeout = 0.500000s , priority = 100.
+[twist_mux-13] [INFO] [1746796767.971125730] [twist_mux]: Topic handler 'topics.webgui_joystick' subscribed to topic 'tab_vel': timeout = 0.500000s , priority = 100.
+[twist_mux-13] [INFO] [1746796767.973585041] [twist_mux]: Topic handler 'locks.assisted_teleop' subscribed to topic 'assisted_teleop_priority': timeout = None , priority = 200.
+[twist_mux-13] [INFO] [1746796767.978028846] [twist_mux]: Topic handler 'locks.charging' subscribed to topic 'power/is_charging': timeout = None , priority = 210.
+[twist_mux-13] [INFO] [1746796767.984126520] [twist_mux]: Topic handler 'locks.joystick' subscribed to topic 'joy_priority': timeout = None , priority = 100.
+[robot_state_publisher-16] [INFO] [1746796768.017027567] [robot_state_publisher]: got segment arm_1_link
+[robot_state_publisher-16] [INFO] [1746796768.017333805] [robot_state_publisher]: got segment arm_2_link
+[robot_state_publisher-16] [INFO] [1746796768.017883134] [robot_state_publisher]: got segment arm_3_link
+[robot_state_publisher-16] [INFO] [1746796768.017899586] [robot_state_publisher]: got segment arm_4_link
+[robot_state_publisher-16] [INFO] [1746796768.017911779] [robot_state_publisher]: got segment arm_5_link
+[robot_state_publisher-16] [INFO] [1746796768.017922352] [robot_state_publisher]: got segment arm_6_link
+[robot_state_publisher-16] [INFO] [1746796768.017931790] [robot_state_publisher]: got segment arm_7_link
+[robot_state_publisher-16] [INFO] [1746796768.017940642] [robot_state_publisher]: got segment arm_tool_link
+[robot_state_publisher-16] [INFO] [1746796768.017952197] [robot_state_publisher]: got segment base_antenna_left_link
+[robot_state_publisher-16] [INFO] [1746796768.017965294] [robot_state_publisher]: got segment base_antenna_right_link
+[robot_state_publisher-16] [INFO] [1746796768.017973053] [robot_state_publisher]: got segment base_cover_link
+[robot_state_publisher-16] [INFO] [1746796768.017980197] [robot_state_publisher]: got segment base_dock_link
+[robot_state_publisher-16] [INFO] [1746796768.017986951] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-16] [INFO] [1746796768.017994898] [robot_state_publisher]: got segment base_imu_link
+[robot_state_publisher-16] [INFO] [1746796768.018004787] [robot_state_publisher]: got segment base_laser_link
+[robot_state_publisher-16] [INFO] [1746796768.018014973] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-16] [INFO] [1746796768.018022605] [robot_state_publisher]: got segment base_mic_back_left_link
+[robot_state_publisher-16] [INFO] [1746796768.018031470] [robot_state_publisher]: got segment base_mic_back_right_link
+[robot_state_publisher-16] [INFO] [1746796768.018038512] [robot_state_publisher]: got segment base_mic_front_left_link
+[robot_state_publisher-16] [INFO] [1746796768.019685654] [robot_state_publisher]: got segment base_mic_front_right_link
+[robot_state_publisher-16] [INFO] [1746796768.019739754] [robot_state_publisher]: got segment base_sonar_01_link
+[robot_state_publisher-16] [INFO] [1746796768.019756883] [robot_state_publisher]: got segment base_sonar_02_link
+[robot_state_publisher-16] [INFO] [1746796768.019770877] [robot_state_publisher]: got segment base_sonar_03_link
+[robot_state_publisher-16] [INFO] [1746796768.019784922] [robot_state_publisher]: got segment caster_back_left_1_link
+[robot_state_publisher-16] [INFO] [1746796768.019798736] [robot_state_publisher]: got segment caster_back_left_2_link
+[robot_state_publisher-16] [INFO] [1746796768.019814487] [robot_state_publisher]: got segment caster_back_right_1_link
+[robot_state_publisher-16] [INFO] [1746796768.019828575] [robot_state_publisher]: got segment caster_back_right_2_link
+[robot_state_publisher-16] [INFO] [1746796768.019842682] [robot_state_publisher]: got segment caster_front_left_1_link
+[robot_state_publisher-16] [INFO] [1746796768.019855955] [robot_state_publisher]: got segment caster_front_left_2_link
+[robot_state_publisher-16] [INFO] [1746796768.019869531] [robot_state_publisher]: got segment caster_front_right_1_link
+[robot_state_publisher-16] [INFO] [1746796768.019885364] [robot_state_publisher]: got segment caster_front_right_2_link
+[robot_state_publisher-16] [INFO] [1746796768.019900069] [robot_state_publisher]: got segment gripper_grasping_frame
+[robot_state_publisher-16] [INFO] [1746796768.019913614] [robot_state_publisher]: got segment gripper_left_finger_link
+[robot_state_publisher-16] [INFO] [1746796768.019927063] [robot_state_publisher]: got segment gripper_link
+[robot_state_publisher-16] [INFO] [1746796768.019940875] [robot_state_publisher]: got segment gripper_right_finger_link
+[robot_state_publisher-16] [INFO] [1746796768.019958530] [robot_state_publisher]: got segment gripper_tool_link
+[robot_state_publisher-16] [INFO] [1746796768.019973330] [robot_state_publisher]: got segment head_1_link
+[robot_state_publisher-16] [INFO] [1746796768.019987277] [robot_state_publisher]: got segment head_2_link
+[robot_state_publisher-16] [INFO] [1746796768.020000890] [robot_state_publisher]: got segment head_front_camera_color_frame
+[robot_state_publisher-16] [INFO] [1746796768.020014336] [robot_state_publisher]: got segment head_front_camera_color_optical_frame
+[robot_state_publisher-16] [INFO] [1746796768.020030470] [robot_state_publisher]: got segment head_front_camera_depth_frame
+[robot_state_publisher-16] [INFO] [1746796768.020045911] [robot_state_publisher]: got segment head_front_camera_depth_optical_frame
+[robot_state_publisher-16] [INFO] [1746796768.020059570] [robot_state_publisher]: got segment head_front_camera_link
+[robot_state_publisher-16] [INFO] [1746796768.020073338] [robot_state_publisher]: got segment head_front_camera_optical_frame
+[robot_state_publisher-16] [INFO] [1746796768.020087103] [robot_state_publisher]: got segment head_front_camera_orbbec_aux_joint_frame
+[robot_state_publisher-16] [INFO] [1746796768.020104568] [robot_state_publisher]: got segment suspension_left_link
+[robot_state_publisher-16] [INFO] [1746796768.020119506] [robot_state_publisher]: got segment suspension_right_link
+[robot_state_publisher-16] [INFO] [1746796768.020194849] [robot_state_publisher]: got segment torso_fixed_column_link
+[robot_state_publisher-16] [INFO] [1746796768.020214036] [robot_state_publisher]: got segment torso_fixed_link
+[robot_state_publisher-16] [INFO] [1746796768.020227904] [robot_state_publisher]: got segment torso_lift_link
+[robot_state_publisher-16] [INFO] [1746796768.020241553] [robot_state_publisher]: got segment wheel_left_link
+[robot_state_publisher-16] [INFO] [1746796768.020255013] [robot_state_publisher]: got segment wheel_right_link
+[robot_state_publisher-16] [INFO] [1746796768.020270384] [robot_state_publisher]: got segment wrist_ft_link
+[robot_state_publisher-16] [INFO] [1746796768.020283711] [robot_state_publisher]: got segment wrist_ft_tool_link
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 589 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[move_group-3]          at line 594 in ./src/model.cpp
+[move_group-3] [0m[INFO] [1746796768.299202104] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds[0m
+[move_group-3] [0m[INFO] [1746796768.299437411] [moveit_robot_model.robot_model]: Loading robot model 'tiago'...[0m
+[move_group-3] [0m[INFO] [1746796768.299625558] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[move_group-3] [33m[WARN] [1746796768.329356407] [moveit_robot_model.robot_model]: Link base_laser_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.329449844] [moveit_robot_model.robot_model]: Link base_sonar_01_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.329478341] [moveit_robot_model.robot_model]: Link base_sonar_02_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.329514737] [moveit_robot_model.robot_model]: Link base_sonar_03_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.329537605] [moveit_robot_model.robot_model]: Link caster_back_left_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.329588799] [moveit_robot_model.robot_model]: Link caster_back_right_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.329620383] [moveit_robot_model.robot_model]: Link caster_front_left_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.329646973] [moveit_robot_model.robot_model]: Link caster_front_right_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [33m[WARN] [1746796768.386104356] [moveit_robot_model.robot_model]: Link base_cover_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[move_group-3] [0m[INFO] [1746796768.600063097] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states[0m
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 589 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] Warning: Link 'head_front_camera_rgb_optical_frame' is not known to URDF. Cannot disable/enable collisons.
+[play_motion2_node-12]          at line 594 in ./src/model.cpp
+[play_motion2_node-12] [0m[INFO] [1746796768.612583335] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds[0m
+[play_motion2_node-12] [0m[INFO] [1746796768.614689927] [moveit_robot_model.robot_model]: Loading robot model 'tiago'...[0m
+[play_motion2_node-12] [0m[INFO] [1746796768.614777566] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[move_group-3] [0m[INFO] [1746796768.612120448] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.635153391] [moveit_robot_model.robot_model]: Link base_laser_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.640758275] [moveit_robot_model.robot_model]: Link base_sonar_01_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.640803308] [moveit_robot_model.robot_model]: Link base_sonar_02_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.640830882] [moveit_robot_model.robot_model]: Link base_sonar_03_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.640858950] [moveit_robot_model.robot_model]: Link caster_back_left_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.640920546] [moveit_robot_model.robot_model]: Link caster_back_right_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.640957158] [moveit_robot_model.robot_model]: Link caster_front_left_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.640990490] [moveit_robot_model.robot_model]: Link caster_front_right_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[move_group-3] [0m[INFO] [1746796768.650581232] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.695607703] [moveit_robot_model.robot_model]: Link base_cover_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.[0m
+[play_motion2_node-12] [33m[WARN] [1746796768.728021596] [moveit_ros.robot_model_loader]: No kinematics plugins defined. Fill and load kinematics.yaml![0m
+[move_group-3] [0m[INFO] [1746796768.770499024] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'[0m
+[move_group-3] [0m[INFO] [1746796768.770795971] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor[0m
+[move_group-3] [0m[INFO] [1746796768.771450971] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'[0m
+[move_group-3] [0m[INFO] [1746796768.771491416] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.[0m
+[move_group-3] [0m[INFO] [1746796768.779649745] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'[0m
+[move_group-3] [0m[INFO] [1746796768.783647337] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry[0m
+[spawner-6] [INFO] [1746796768.830207415] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [INFO] [1746796768.870512829] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [INFO] [1746796768.885782179] [spawner_head_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-5] [INFO] [1746796768.962014442] [spawner_mobile_base_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [INFO] [1746796768.966586668] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [INFO] [1746796768.982736999] [spawner_ft_sensor_controller]: waiting for service /controller_manager/list_controllers to become available...
+[social_planner_node-19] [INFO] [1746796768.997991940] [social_planner_node]: Social Planner Node Initializing...
+[move_group-3] [0m[INFO] [1746796768.999201068] [moveit.ros.perception.pointcloud_octomap_updater]: Listening to '/throttle_filtering_points/filtered_points' using message filter with target frame 'base_footprint '[0m
+[move_group-3] [0m[INFO] [1746796768.999247048] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'[0m
+[social_planner_node-19] [INFO] [1746796769.005781286] [social_planner_node]: Parameters set: lambda_sm=0.1, robot_radius=0.5, cmd_vel_topic=/mobile_base_controller/cmd_vel_unstamped
+[social_planner_node-19] [INFO] [1746796769.006225284] [social_planner_node]: Goal reached threshold: 0.2 m
+[social_planner_node-19] [INFO] [1746796769.006649774] [social_planner_node]: Initial planner delay: 5.0 s
+[social_planner_node-19] [INFO] [1746796769.007108095] [social_planner_node]: Waiting for goal on topic: /goal_pose
+[social_planner_node-19] [INFO] [1746796769.008684270] [social_planner_node]: Created action space with 15 actions.
+[social_planner_node-19] [INFO] [1746796769.009536665] [social_planner_node]: Using RELIABLE/VOLATILE QoS for /goal_pose subscriber.
+[spawner-7] [INFO] [1746796769.017086503] [spawner_torso_controller]: waiting for service /controller_manager/list_controllers to become available...
+[move_group-3] [0m[INFO] [1746796769.038527394] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'[0m
+[move_group-3] [0m[INFO] [1746796769.045813145] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000[0m
+[move_group-3] [0m[INFO] [1746796769.045848051] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000[0m
+[move_group-3] [0m[INFO] [1746796769.045859566] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000[0m
+[move_group-3] [0m[INFO] [1746796769.045896326] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000[0m
+[move_group-3] [0m[INFO] [1746796769.045923278] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000[0m
+[move_group-3] [0m[INFO] [1746796769.045934802] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000[0m
+[move_group-3] [0m[INFO] [1746796769.045955580] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000[0m
+[move_group-3] [0m[INFO] [1746796769.045965926] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was not set. Using default value: 0.020000[0m
+[move_group-3] [0m[INFO] [1746796769.045976066] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100[0m
+[move_group-3] [0m[INFO] [1746796769.045997455] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'[0m
+[move_group-3] [0m[INFO] [1746796769.046020952] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'[0m
+[move_group-3] [0m[INFO] [1746796769.046028728] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'[0m
+[move_group-3] [0m[INFO] [1746796769.046036643] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'[0m
+[move_group-3] [0m[INFO] [1746796769.046044247] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'[0m
+[move_group-3] [0m[INFO] [1746796769.046051555] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'[0m
+[move_group-3] [0m[INFO] [1746796769.054654151] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'[0m
+[move_group-3] [31m[ERROR] [1746796769.060259022] [moveit.ros_planning.planning_pipeline]: Exception while loading planner 'chomp_interface/CHOMPPlanner': According to the loaded plugin descriptions the class chomp_interface/CHOMPPlanner with base class type planning_interface::PlannerManager does not exist. Declared types are  ompl_interface/OMPLPlannerAvailable plugins: ompl_interface/OMPLPlanner[0m
+[move_group-3] [0m[INFO] [1746796769.067197838] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000[0m
+[move_group-3] [0m[INFO] [1746796769.067265315] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000[0m
+[move_group-3] [0m[INFO] [1746796769.067288022] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000[0m
+[move_group-3] [0m[INFO] [1746796769.067344042] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000[0m
+[move_group-3] [0m[INFO] [1746796769.067394387] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000[0m
+[move_group-3] [0m[INFO] [1746796769.067416431] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000[0m
+[move_group-3] [0m[INFO] [1746796769.067451230] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000[0m
+[move_group-3] [0m[INFO] [1746796769.067475947] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000[0m
+[move_group-3] [0m[INFO] [1746796769.067606402] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100[0m
+[move_group-3] [0m[INFO] [1746796769.067769753] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'[0m
+[move_group-3] [0m[INFO] [1746796769.067862466] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'[0m
+[move_group-3] [0m[INFO] [1746796769.067937018] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'[0m
+[move_group-3] [0m[INFO] [1746796769.068007551] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'[0m
+[move_group-3] [0m[INFO] [1746796769.068080673] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'[0m
+[move_group-3] [0m[INFO] [1746796769.068153810] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'[0m
+[move_group-3] [31m[ERROR] [1746796769.100272332] [moveit.ros_planning_interface.moveit_cpp]: Failed to initialize planning pipeline 'chomp'.[0m
+[social_planner_node-19] [INFO] [1746796769.106277024] [social_planner_node]: Social Planner Node Initialized Successfully.
+[spawn_entity.py-4] [INFO] [1746796769.189353217] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1746796769.190001586] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-4] [INFO] [1746796769.192520601] [spawn_entity]: Waiting for entity xml on robot_description
+[move_group-3] [0m[INFO] [1746796769.193051080] [moveit.plugins.ros_control_interface]: Started moveit_ros_control_interface::Ros2ControlManager for namespace [0m
+[spawn_entity.py-4] [INFO] [1746796769.415068270] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1746796769.415680470] [spawn_entity]: Waiting for service /spawn_entity
+[rviz2-18] [INFO] [1746796769.600627595] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-18] [INFO] [1746796769.600753005] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-18] [INFO] [1746796769.747294859] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-18] [ERROR] [1746796769.966653880] [rviz2]: The link arm_1_link is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-18] 
+[social_planner_node-19] [INFO] [1746796770.625321232] [social_planner_node]: Waiting for initial planner delay (5.0s)...
+[spawn_entity.py-4] [INFO] [1746796770.675485220] [spawn_entity]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1746796771.054384834] [base_imu]: <initial_orientation_as_reference> is unset, using default value of false to comply with REP 145 (world as orientation reference)
+[gzserver-1] [INFO] [1746796771.542049193] [head_front_camera_frame_controller]: Publishing camera info to [/head_front_camera/rgb/camera_info]
+[gzserver-1] [INFO] [1746796771.543591066] [head_front_camera_frame_controller]: Publishing depth camera info to [/head_front_camera/depth/camera_info]
+[gzserver-1] [INFO] [1746796771.544727042] [head_front_camera_frame_controller]: Publishing pointcloud to [/head_front_camera/depth/points]
+[spawn_entity.py-4] [INFO] [1746796771.549468392] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [tiago]
+[gzserver-1] [INFO] [1746796771.631849059] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-1] [INFO] [1746796771.643932517] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-1] [INFO] [1746796771.644004945] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-1] [INFO] [1746796771.655943953] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-1] [INFO] [1746796771.656833618] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-1] [INFO] [1746796771.656891943] [gazebo_ros2_control]: Loading parameter files /home/wim/tiago_public_ws/install/tiago_description/share/tiago_description/ros2_control/gazebo_controller_manager_cfg.yaml
+[gzserver-1] [INFO] [1746796771.677631678] [gazebo_ros2_control]: Loading joint: wheel_right_joint
+[gzserver-1] [INFO] [1746796771.677696797] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.677720269] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.677739412] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.678112043] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.678701064] [gazebo_ros2_control]: Loading joint: wheel_left_joint
+[gzserver-1] [INFO] [1746796771.678736633] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.678751692] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.678766960] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.678800140] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.679199949] [gazebo_ros2_control]: Loading joint: torso_lift_joint
+[gzserver-1] [INFO] [1746796771.679229666] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.679245090] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.679265490] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.679281323] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.679296938] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.679311238] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.679697748] [gazebo_ros2_control]: Loading joint: arm_1_joint
+[gzserver-1] [INFO] [1746796771.679726487] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.679739427] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.679751736] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.679764406] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.679782501] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.679798521] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.680289671] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.680588941] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.680615734] [gazebo_ros2_control]: Loading joint: arm_2_joint
+[gzserver-1] [INFO] [1746796771.680628309] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.680640115] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.680663796] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.680675033] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.680685761] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.680695710] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.680986567] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.681235970] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.681267992] [gazebo_ros2_control]: Loading joint: arm_3_joint
+[gzserver-1] [INFO] [1746796771.681280352] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.681290981] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.681301278] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.681311613] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.681321335] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.681331641] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.681592801] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.682192818] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.682235640] [gazebo_ros2_control]: Loading joint: arm_4_joint
+[gzserver-1] [INFO] [1746796771.682251901] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.682265710] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.682279516] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.682293141] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.682312856] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.682326209] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.683133288] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.683467983] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.683504408] [gazebo_ros2_control]: Loading joint: arm_5_joint
+[gzserver-1] [INFO] [1746796771.683518560] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.683531186] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.683543451] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.683554985] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.683566203] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.683595939] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.684196949] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.684669169] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.684722182] [gazebo_ros2_control]: Loading joint: arm_6_joint
+[gzserver-1] [INFO] [1746796771.684736465] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.684750369] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.684762229] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.684775171] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.684790441] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.684805797] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.685108761] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.686561578] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.686646361] [gazebo_ros2_control]: Loading joint: arm_7_joint
+[gzserver-1] [INFO] [1746796771.686669049] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.686689599] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.686707932] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.686723872] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.686739530] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.686754841] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.687224135] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.687586406] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.687623559] [gazebo_ros2_control]: Loading joint: gripper_left_finger_joint
+[gzserver-1] [INFO] [1746796771.687641506] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.687655163] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.687672132] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.687686025] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.687699129] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.687711593] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.688046062] [gazebo_ros2_control]: Loading joint: gripper_right_finger_joint
+[gzserver-1] [INFO] [1746796771.688072906] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.688087806] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.688104048] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.688117595] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.688130471] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.688142666] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.688469388] [gazebo_ros2_control]: Loading joint: head_1_joint
+[gzserver-1] [INFO] [1746796771.688496059] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.688528496] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.688549631] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.688562508] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.688582349] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.688596761] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.689003535] [gazebo_ros2_control]: Loading joint: head_2_joint
+[gzserver-1] [INFO] [1746796771.689032757] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.689047420] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.689060027] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1746796771.689101472] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1746796771.689116581] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1746796771.689128019] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1746796771.689657452] [gazebo_ros2_control]: Loading sensor: wrist_ft_sensor
+[gzserver-1] [INFO] [1746796771.689689185] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1746796771.689708324] [gazebo_ros2_control]: 		 force.x
+[gzserver-1] [INFO] [1746796771.689720968] [gazebo_ros2_control]: 		 force.y
+[gzserver-1] [INFO] [1746796771.689732346] [gazebo_ros2_control]: 		 force.z
+[gzserver-1] [INFO] [1746796771.689743412] [gazebo_ros2_control]: 		 torque.x
+[gzserver-1] [INFO] [1746796771.689754973] [gazebo_ros2_control]: 		 torque.y
+[gzserver-1] [INFO] [1746796771.689767148] [gazebo_ros2_control]: 		 torque.z
+[gzserver-1] [INFO] [1746796771.689862968] [resource_manager]: Initialize hardware 'ros2_control_tiago_system' 
+[gzserver-1] [INFO] [1746796771.690148491] [resource_manager]: Successful initialization of hardware 'ros2_control_tiago_system'
+[gzserver-1] [INFO] [1746796771.690341021] [resource_manager]: 'configure' hardware 'ros2_control_tiago_system' 
+[gzserver-1] [INFO] [1746796771.690357271] [resource_manager]: Successful 'configure' of hardware 'ros2_control_tiago_system'
+[gzserver-1] [INFO] [1746796771.690387797] [resource_manager]: 'activate' hardware 'ros2_control_tiago_system' 
+[gzserver-1] [INFO] [1746796771.690398254] [resource_manager]: Successful 'activate' of hardware 'ros2_control_tiago_system'
+[gzserver-1] [INFO] [1746796771.690495588] [gazebo_ros2_control]: Loading controller_manager
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 10750]
+[gzserver-1] [WARN] [1746796771.738943678] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-1] [INFO] [1746796771.739259109] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[spawner-10] [INFO] [1746796771.745171288] [spawner_ft_sensor_controller]: [96mSetting controller param "params_file" to "['/home/wim/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/ft_sensor_controller.yaml']" for [1mft_sensor_controller[0m
+[spawner-10] [INFO] [1746796771.749911061] [spawner_ft_sensor_controller]: [96mSetting controller param "type" to "force_torque_sensor_broadcaster/ForceTorqueSensorBroadcaster" for [1mft_sensor_controller[0m
+[gzserver-1] [INFO] [1746796771.751968427] [controller_manager]: Loading controller 'ft_sensor_controller'
+[spawner-10] [INFO] [1746796771.781312798] [spawner_ft_sensor_controller]: [94mLoaded [1mft_sensor_controller[0m
+[gzserver-1] [INFO] [1746796771.784394584] [controller_manager]: Configuring controller 'ft_sensor_controller'
+[spawner-7] [INFO] [1746796771.791438522] [spawner_torso_controller]: [96mSetting controller param "params_file" to "['/home/wim/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/torso_controller.yaml']" for [1mtorso_controller[0m
+[spawner-10] [INFO] [1746796771.811800979] [spawner_ft_sensor_controller]: [92mConfigured and activated [1mft_sensor_controller[0m
+[spawner-7] [INFO] [1746796771.812262762] [spawner_torso_controller]: [96mSetting controller param "type" to "joint_trajectory_controller/JointTrajectoryController" for [1mtorso_controller[0m
+[gzserver-1] [INFO] [1746796771.815971325] [controller_manager]: Loading controller 'torso_controller'
+[gzserver-1] [WARN] [1746796771.867746809] [torso_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-7] [INFO] [1746796771.876925488] [spawner_torso_controller]: [94mLoaded [1mtorso_controller[0m
+[spawner-6] [INFO] [1746796771.882260429] [spawner_joint_state_broadcaster]: [96mSetting controller param "params_file" to "['/home/wim/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/joint_state_broadcaster.yaml']" for [1mjoint_state_broadcaster[0m
+[spawner-6] [INFO] [1746796771.888176871] [spawner_joint_state_broadcaster]: [96mSetting controller param "type" to "joint_state_broadcaster/JointStateBroadcaster" for [1mjoint_state_broadcaster[0m
+[spawner-11] [INFO] [1746796771.889551254] [spawner_gripper_controller]: [96mSetting controller param "params_file" to "['/tmp/tmp53_skbnb']" for [1mgripper_controller[0m
+[gzserver-1] [INFO] [1746796771.891742935] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-6] [INFO] [1746796771.928740828] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[spawner-11] [INFO] [1746796771.929549295] [spawner_gripper_controller]: [96mSetting controller param "type" to "joint_trajectory_controller/JointTrajectoryController" for [1mgripper_controller[0m
+[gzserver-1] [INFO] [1746796771.933319304] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[gzserver-1] [INFO] [1746796771.933587800] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gzserver-1] [INFO] [1746796771.956699452] [controller_manager]: Loading controller 'gripper_controller'
+[gzserver-1] [WARN] [1746796771.987943926] [gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1746796771.998929665] [controller_manager]: Configuring controller 'torso_controller'
+[gzserver-1] [INFO] [1746796771.999184537] [torso_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1746796771.999253583] [torso_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1746796771.999356587] [torso_controller]: Using 'splines' interpolation method.
+[spawner-11] [INFO] [1746796771.999661225] [spawner_gripper_controller]: [94mLoaded [1mgripper_controller[0m
+[spawner-8] [INFO] [1746796771.999938465] [spawner_head_controller]: [96mSetting controller param "params_file" to "['/home/wim/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/head_controller.yaml']" for [1mhead_controller[0m
+[gzserver-1] [INFO] [1746796772.003292635] [torso_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1746796772.008383770] [torso_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [spawner-10]: process has finished cleanly [pid 10767]
+[spawner-6] [INFO] [1746796772.051119555] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[spawner-8] [INFO] [1746796772.052304526] [spawner_head_controller]: [96mSetting controller param "type" to "joint_trajectory_controller/JointTrajectoryController" for [1mhead_controller[0m
+[gzserver-1] [INFO] [1746796772.073214129] [controller_manager]: Loading controller 'head_controller'
+[spawner-7] [INFO] [1746796772.074446528] [spawner_torso_controller]: [92mConfigured and activated [1mtorso_controller[0m
+[spawner-5] [INFO] [1746796772.077705191] [spawner_mobile_base_controller]: [96mSetting controller param "params_file" to "['/home/wim/tiago_public_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/mobile_base_controller_public_sim.yaml']" for [1mmobile_base_controller[0m
+[gzserver-1] [WARN] [1746796772.134333133] [head_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1746796772.139463702] [controller_manager]: Configuring controller 'gripper_controller'
+[gzserver-1] [INFO] [1746796772.139658097] [gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1746796772.139681467] [gripper_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1746796772.139696906] [gripper_controller]: Using 'splines' interpolation method.
+[spawner-8] [INFO] [1746796772.140450756] [spawner_head_controller]: [94mLoaded [1mhead_controller[0m
+[gzserver-1] [INFO] [1746796772.140818028] [gripper_controller]: Controller state will be published at 50.00 Hz.
+[spawner-9] [INFO] [1746796772.143012472] [spawner_arm_controller]: [96mSetting controller param "params_file" to "['/home/wim/tiago_public_ws/install/tiago_controller_configuration/share/tiago_controller_configuration/config/arm_controller.yaml']" for [1marm_controller[0m
+[gzserver-1] [INFO] [1746796772.149607495] [gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[gzserver-1] [INFO] [1746796772.176398896] [controller_manager]: Configuring controller 'head_controller'
+[gzserver-1] [INFO] [1746796772.176654129] [head_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1746796772.176693628] [head_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1746796772.176719807] [head_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1746796772.181089362] [head_controller]: Controller state will be published at 50.00 Hz.
+[spawner-5] [INFO] [1746796772.182754597] [spawner_mobile_base_controller]: [96mSetting controller param "type" to "diff_drive_controller/DiffDriveController" for [1mmobile_base_controller[0m
+[gzserver-1] [INFO] [1746796772.188398006] [head_controller]: Action status changes will be monitored at 20.00 Hz.
+[move_group-3] [33m[WARN] [1746796772.196666428] [moveit.plugins.ros_control_interface]: Failed to read controllers from /controller_manager/list_controllers within 3 seconds[0m
+[move_group-3] [0m[INFO] [1746796772.204180904] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers[0m
+[move_group-3] [0m[INFO] [1746796772.204264271] [move_group.move_group]: MoveGroup debug mode is ON[0m
+[gzserver-1] [INFO] [1746796772.220549423] [controller_manager]: Loading controller 'mobile_base_controller'
+[spawner-9] [INFO] [1746796772.224097243] [spawner_arm_controller]: [96mSetting controller param "type" to "joint_trajectory_controller/JointTrajectoryController" for [1marm_controller[0m
+[move_group-3] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-3] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-3] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-3] [0m[INFO] [1746796772.281489115] [move_group.move_group]: 
+[move_group-3] 
+[move_group-3] ********************************************************
+[move_group-3] * MoveGroup using: 
+[move_group-3] *     - ApplyPlanningSceneService
+[move_group-3] *     - ClearOctomapService
+[move_group-3] *     - CartesianPathService
+[move_group-3] *     - ExecuteTrajectoryAction
+[move_group-3] *     - GetPlanningSceneService
+[move_group-3] *     - KinematicsService
+[move_group-3] *     - MoveAction
+[move_group-3] *     - MotionPlanService
+[move_group-3] *     - QueryPlannersService
+[move_group-3] *     - StateValidationService
+[move_group-3] ********************************************************
+[move_group-3] [0m
+[move_group-3] [0m[INFO] [1746796772.281595277] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner[0m
+[move_group-3] [0m[INFO] [1746796772.281631319] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete[0m
+[move_group-3] [0m[92m
+[move_group-3] You can start planning now!
+[move_group-3] 
+[play_motion2_node-12] [0m[INFO] [1746796772.295712933] [move_group_interface]: Ready to take commands for planning group arm_torso.[0m
+[spawner-5] [INFO] [1746796772.326986117] [spawner_mobile_base_controller]: [94mLoaded [1mmobile_base_controller[0m
+[INFO] [spawner-6]: process has finished cleanly [pid 10755]
+[INFO] [spawner-7]: process has finished cleanly [pid 10758]
+[gzserver-1] [INFO] [1746796772.346993580] [controller_manager]: Loading controller 'arm_controller'
+[spawner-11] [INFO] [1746796772.347889611] [spawner_gripper_controller]: [92mConfigured and activated [1mgripper_controller[0m
+[gzserver-1] [WARN] [1746796772.397783463] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1746796772.401456350] [controller_manager]: Configuring controller 'mobile_base_controller'
+[spawner-9] [INFO] [1746796772.403092629] [spawner_arm_controller]: [94mLoaded [1marm_controller[0m
+[gzserver-1] [INFO] [1746796772.432701064] [controller_manager]: Configuring controller 'arm_controller'
+[gzserver-1] [INFO] [1746796772.432873222] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1746796772.432891433] [arm_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1746796772.432905313] [arm_controller]: Using 'splines' interpolation method.
+[spawner-8] [INFO] [1746796772.433436879] [spawner_head_controller]: [92mConfigured and activated [1mhead_controller[0m
+[gzserver-1] [INFO] [1746796772.433988590] [arm_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1746796772.440082645] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-5] [INFO] [1746796772.485990133] [spawner_mobile_base_controller]: [92mConfigured and activated [1mmobile_base_controller[0m
+[spawner-9] [INFO] [1746796772.508166580] [spawner_arm_controller]: [92mConfigured and activated [1marm_controller[0m
+[INFO] [spawner-11]: process has finished cleanly [pid 10770]
+[INFO] [spawner-8]: process has finished cleanly [pid 10760]
+[INFO] [spawner-5]: process has finished cleanly [pid 10752]
+[INFO] [spawner-9]: process has finished cleanly [pid 10764]
+[tuck_arm.py-17] [0m[INFO] [1746796775.500405814] [arm_tucker]: play_motion2 is ready[0m
+[tuck_arm.py-17] [0m[INFO] [1746796775.500932767] [arm_tucker]: Tucking arm... Try 0[0m
+[play_motion2_node-12] [0m[INFO] [1746796775.501499028] [play_motion2]: Received goal request: motion 'home'[0m
+[gzserver-1] [INFO] [1746796775.531036801] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1746796775.531223641] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1746796775.536414828] [torso_controller]: Received new action goal
+[gzserver-1] [INFO] [1746796775.536458012] [torso_controller]: Accepted new action goal
+[social_planner_node-19] [INFO] [1746796776.500177562] [social_planner_node]: Initial planner delay passed. Planner active.
+[social_planner_node-19] [WARN] [1746796776.501036296] [social_planner_node]: Waiting for: goal...
+[tuck_arm.py-17] [0m[INFO] [1746796777.505265717] [arm_tucker]: Goal accepted[0m
+[social_planner_node-19] [WARN] [1746796781.560533165] [social_planner_node]: Waiting for: goal...
+[gzserver-1] [INFO] [1746796786.041405585] [torso_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1746796786.041602302] [arm_controller]: Goal reached, success!
+[play_motion2_node-12] [0m[INFO] [1746796786.087895357] [play_motion2]: Motion 'home' completed[0m
+[social_planner_node-19] [WARN] [1746796786.636686654] [social_planner_node]: Waiting for: goal...
+[tuck_arm.py-17] [0m[INFO] [1746796787.089520069] [arm_tucker]: Motion succeeded[0m
+[tuck_arm.py-17] [0m[INFO] [1746796787.090134593] [arm_tucker]: Arm tucked[0m
+[INFO] [tuck_arm.py-17]: process has finished cleanly [pid 10783]
+[social_planner_node-19] [WARN] [1746796791.718881147] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796796.748978183] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796801.770898631] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796806.790102421] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796811.807938340] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796816.827797942] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796821.844279346] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796826.858951379] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796831.868878200] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796836.894757489] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796841.940741863] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796846.970749984] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796852.036982003] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796857.111862440] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796862.152930380] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796867.203784107] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796872.227090931] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796877.255798316] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796882.291066631] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796887.336871272] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796892.358069214] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796897.372163916] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796902.458159656] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796907.553976380] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796912.561102085] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796917.629178355] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796922.631193864] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796927.723635549] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796932.728206331] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796937.730921883] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796942.759459920] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796947.861030979] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796952.867489884] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796957.872426704] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796962.967591879] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796967.985525218] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796973.009675917] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796978.103955007] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796983.110481834] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796988.115927512] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796993.198844346] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746796998.276807229] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797003.294526457] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797008.382259568] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797013.467891234] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797018.556810102] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797023.637167153] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797028.641165927] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797033.646895796] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797038.743248866] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797043.838218009] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797048.931522691] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797054.020137151] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797059.094827930] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797064.176507850] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797069.258627322] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797074.339752299] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797079.418272197] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797084.509853856] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797089.606922045] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797094.696596999] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797099.788817890] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797104.877831355] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797109.970274739] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797115.057654870] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797120.146203611] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797125.237206413] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797130.322821056] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797135.408550677] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797140.408865496] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797145.501015296] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797150.591088434] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797155.680080920] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797160.756650991] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797165.781403260] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797170.828758515] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797175.840074757] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797180.931198844] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797185.985677918] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797191.041752615] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797196.045567299] [social_planner_node]: Waiting for: goal...
+[social_planner_node-19] [WARN] [1746797201.092704209] [social_planner_node]: Waiting for: goal...
+[rviz2-18] [INFO] [1746797205.131085446] [rviz2]: Setting goal pose: Frame:odom, Position(2.89852, -0.45864, 0), Orientation(0, 0, 0.686204, 0.727409) = Angle: 1.51251
+[social_planner_node-19] [INFO] [1746797205.132623976] [social_planner_node]: --- GOAL CALLBACK TRIGGERED --- msg header frame: odom
+[social_planner_node-19] [INFO] [1746797205.133554101] [social_planner_node]: Received new goal: [ 2.89851713 -0.4586401 ]
+[social_planner_node-19] [INFO] [1746797205.160721928] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.264466268] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.366084477] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.468332611] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.571804573] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.673453656] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.775399273] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.879340435] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797205.983022548] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797206.084871682] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797206.188967726] [social_planner_node]: Published cmd_vel: lin_x=0.97, ang_z=0.26
+[social_planner_node-19] [INFO] [1746797206.292155228] [social_planner_node]: Published cmd_vel: lin_x=0.87, ang_z=0.50
+[social_planner_node-19] [INFO] [1746797206.394283275] [social_planner_node]: Published cmd_vel: lin_x=0.87, ang_z=0.50
+[social_planner_node-19] [INFO] [1746797206.497130259] [social_planner_node]: Published cmd_vel: lin_x=0.87, ang_z=0.50
+[social_planner_node-19] [INFO] [1746797206.602387320] [social_planner_node]: Published cmd_vel: lin_x=0.87, ang_z=0.50
+[social_planner_node-19] [INFO] [1746797206.702550268] [social_planner_node]: Published cmd_vel: lin_x=0.87, ang_z=0.50
+[social_planner_node-19] [INFO] [1746797206.806390672] [social_planner_node]: Published cmd_vel: lin_x=0.87, ang_z=0.50
+[social_planner_node-19] [INFO] [1746797206.908723116] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.010494789] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.117321511] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.248020600] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.349782502] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.451289692] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.551724246] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.653929134] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.754432762] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.855254473] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797207.956217849] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.059025577] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.161837832] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.264941399] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.365421934] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.469863480] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.574480251] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.679550271] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.785430989] [social_planner_node]: Published cmd_vel: lin_x=0.71, ang_z=0.71
+[social_planner_node-19] [INFO] [1746797208.904529276] [social_planner_node]: Published cmd_vel: lin_x=0.35, ang_z=0.35
+[social_planner_node-19] [INFO] [1746797209.017630907] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.131822453] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.244210486] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.355422045] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.467598782] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.587446843] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.703758078] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.813279776] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797209.919467120] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.029717278] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.136110199] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.243272312] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.347345034] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.451530662] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.553334231] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.654276149] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.757220447] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.858554339] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797210.959962228] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.062611464] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.165063355] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.269473664] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.372428657] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.472547574] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.579905837] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.685015232] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.791159254] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797211.896440080] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.002465370] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.107916726] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.214227653] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.353319694] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.467713904] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.581791223] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.688896716] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.795520213] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797212.905659073] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.014309664] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.117998839] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.223779737] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.327114850] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.432163520] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.536809630] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.641506538] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.745843068] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.850489396] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797213.952879231] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.056521103] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.162631594] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.269548004] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.374130196] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.477294605] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.580656355] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.682796469] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.787703471] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.891109897] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797214.997375155] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.100073614] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.207107735] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.311874741] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.420297442] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.547989574] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.656476731] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.765730762] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.871379133] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797215.981846706] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.091214506] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.198765789] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.308463556] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.414078438] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.519029616] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.622358468] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.725908420] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.830618662] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797216.935688746] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.040852825] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.145103106] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.251502679] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.355714460] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.463874494] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.572008616] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.677635743] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.781725781] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.886399633] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797217.996657405] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.101132271] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.207667507] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.313983364] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.420546083] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.523916476] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.629114024] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.734048383] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.839113652] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797218.944633511] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.049383467] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.157128867] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.264050253] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.370226061] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.473179806] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.575788779] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.680827133] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.785498558] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.888679433] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797219.995963173] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.100904063] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.203248170] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.305148512] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.407591815] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.513933080] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.622350740] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.745813304] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797220.886560272] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.089471811] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.241683279] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.395380549] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.519019022] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.633268980] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.755182154] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.872005202] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797221.986378809] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.096478029] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.204052193] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.310188175] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.415592640] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.523399736] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.639711642] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.748085242] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.854922820] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797222.966073201] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.076525357] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.183819024] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.297792929] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.414532034] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.530562346] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.644990992] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.756075393] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.859853796] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797223.967996581] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.072095626] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.176595904] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.287648999] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.403087939] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.511068845] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.616744971] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.722308963] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.826918124] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797224.936463204] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.042442349] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.147710638] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.251180864] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.354900989] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.459607732] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.564777170] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.671138462] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.774592098] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.880002876] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797225.983242261] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.089349948] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.199548728] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.310688564] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.417099387] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.524223672] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.632146120] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.740661812] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.845583955] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797226.952135523] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.060032719] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.163696813] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.269762741] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.375106007] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.481133313] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.584414099] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.689236375] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.792445909] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797227.898259702] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.010626034] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.116424520] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.224600616] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.332051797] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.443194674] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.552519237] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.663054074] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.774351712] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.880641128] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797228.986591332] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.090315891] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.195340009] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.298208730] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.402164241] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.507578703] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.612522125] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.714669636] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.819187164] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797229.921879899] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[rviz2-18] [INFO] [1746797229.942279364] [rviz2]: Setting goal pose: Frame:odom, Position(1.19504, -0.30009, 0), Orientation(0, 0, 0.192483, 0.9813) = Angle: 0.387384
+[social_planner_node-19] [INFO] [1746797229.944122847] [social_planner_node]: --- GOAL CALLBACK TRIGGERED --- msg header frame: odom
+[social_planner_node-19] [INFO] [1746797229.945692368] [social_planner_node]: Received new goal: [ 1.19503784 -0.30008984]
+[social_planner_node-19] [INFO] [1746797230.025786198] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.129050910] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.232304270] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.334893974] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.438522915] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.544351419] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.652290206] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.757766471] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.889013766] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797230.991531330] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.095255403] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.215299178] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.323011175] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.429150816] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.533229250] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.637485626] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.741329632] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.850359405] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797231.960838239] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.066325650] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.182354715] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.310520632] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.419143085] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.534357545] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.639134328] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.747029543] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.860276550] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797232.967173285] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.075891720] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.182142302] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.289542695] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.402877766] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.522094572] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.634058378] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.740853092] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.845002493] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797233.951387276] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.059117948] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.163804414] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.266452220] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.371544273] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.474945756] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.578820833] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.681908156] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.792795443] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797234.898080705] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.004063822] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.112657118] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.221255509] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.329102493] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.434816594] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.540268071] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.647344646] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.759190300] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.868724722] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797235.977083427] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797236.089126551] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797236.197671789] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797236.302396936] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797236.408493051] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797236.513608767] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[social_planner_node-19] [INFO] [1746797236.614848737] [social_planner_node]: Published cmd_vel: lin_x=0.00, ang_z=-0.00
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[move_group-3] [0m[INFO] [1746797236.715470371] [rclcpp]: signal_handler(signum=2)[0m
+[twist_mux-13] [INFO] [1746797236.715362991] [rclcpp]: signal_handler(signum=2)
+[rviz2-18] [INFO] [1746797236.715381134] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-16] [INFO] [1746797236.715385270] [rclcpp]: signal_handler(signum=2)
+[twist_marker-14] [INFO] [1746797236.715496078] [rclcpp]: signal_handler(signum=2)
+[play_motion2_node-12] [0m[INFO] [1746797236.715425187] [rclcpp]: signal_handler(signum=2)[0m
+[social_planner_node-19] [INFO] [1746797236.716731571] [social_planner_node]: Ctrl+C detected, shutting down node.
+[social_planner_node-19] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[social_planner_node-19] Shutdown complete.
+[move_group-3] [0m[INFO] [1746797236.802351798] [moveit.ros_planning_interface.moveit_cpp]: Deleting MoveItCpp[0m
+[INFO] [robot_state_publisher-16]: process has finished cleanly [pid 10781]
+[INFO] [twist_marker-14]: process has finished cleanly [pid 10777]
+[INFO] [twist_mux-13]: process has finished cleanly [pid 10775]
+[INFO] [play_motion2_node-12]: process has finished cleanly [pid 10772]
+[INFO] [social_planner_node-19]: process has finished cleanly [pid 10790]
+[INFO] [joystick_relay.py-15]: process has finished cleanly [pid 10779]
+[INFO] [rviz2-18]: process has finished cleanly [pid 10786]
+[INFO] [gzclient-2]: process has finished cleanly [pid 10746]
+[move_group-3] [0m[INFO] [1746797237.218018221] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopped publishing maintained planning scene.[0m
+[move_group-3] [0m[INFO] [1746797237.218830492] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping world geometry monitor[0m
+[move_group-3] [0m[INFO] [1746797237.219561753] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor[0m
+[move_group-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[move_group-3]          at line 127 in ./src/class_loader.cpp
+[move_group-3] Stack trace (most recent call last):
+[move_group-3] #16   Object "", at 0xffffffffffffffff, in 
+[move_group-3] #15   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5637ada98724, in 
+[move_group-3] #14   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x790293e29e3f]
+[move_group-3] #13   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x790293e29d8f]
+[move_group-3] #12   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5637ada9765b, in 
+[move_group-3] #11   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5637ada99709, in 
+[move_group-3] #10   Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x790294a62876, in moveit_cpp::MoveItCpp::~MoveItCpp()
+[move_group-3] #9    Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x790294a60ba9, in 
+[move_group-3] #8    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x790293d8d495, in trajectory_execution_manager::TrajectoryExecutionManager::~TrajectoryExecutionManager()
+[move_group-3] #7    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x790293da03a9, in 
+[move_group-3] #6    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7902946c1b3c, in rclcpp::Node::~Node()
+[move_group-3] #5    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7902946c1ade, in rclcpp::Node::~Node()
+[move_group-3] #4    Object "/opt/ros/humble/lib/librclcpp.so", at 0x79029469cd49, in 
+[move_group-3] #3    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7902946cb189, in 
+[move_group-3] #2    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7902946cb0d0, in rclcpp::node_interfaces::NodeBase::~NodeBase()
+[move_group-3] #1    Object "/opt/ros/humble/lib/librclcpp.so", at 0x79029469cd49, in 
+[move_group-3] #0    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7902946a1b41, in rclcpp::CallbackGroup::~CallbackGroup()
+[move_group-3] Segmentation fault (Address not mapped to object [0x7902800bac30])
+[INFO] [gzserver-1]: process has finished cleanly [pid 10744]
+[ERROR] [move_group-3]: process has died [pid 10748, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_7a9rren2 --params-file /tmp/launch_params_01gn6ywm'].
+[move_group-3] [0m

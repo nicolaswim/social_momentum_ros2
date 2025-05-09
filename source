@@ -8,6 +8,9 @@ ros2 launch my_social_nav_pkg social_nav_test.launch.py
 launching rviz
 ros2 run rviz2 rviz2 --ros-args -p use_sim_time:=True
 
+launch with logging
+ros2 launch my_social_nav_pkg social_nav_test.launch.py > launch_output.log 2>&1 &
+
 ---
 
 buidling stuff
@@ -19,7 +22,7 @@ cd ~/Documents/social_momentum_ros2
 source /opt/ros/humble/setup.bash
 
 # 3. Build the workspace (or just your package)
-colcon build --symlink-install --packages-select my_social_nav_pkg
+colcon build --symlink-install --packages-select my_social_nav_pkg my_social_nav_interfaces
 # Or build everything: colcon build --symlink-install
 
 # 4. Source your workspace's overlay setup file
